@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "reshape-helper_fabianlindfors"
+name = "reshape-helper"
 version = "0.1.0"
 authors = [
   { name="Fabian Lindfors", email="fabian@flapplabs.se" },

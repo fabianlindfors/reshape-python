@@ -7,7 +7,7 @@ This is a Python helper library for the automated, zero-downtime schema migratio
 ## Installation
 
 ```
-pip install reshape_helper
+pip install reshape-helper
 ```
 
 ## Usage

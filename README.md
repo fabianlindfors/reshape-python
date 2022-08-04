@@ -48,7 +48,7 @@ def new_connection_handler(sender, connection, **kwargs):
 	connection.cursor().execute(schema_query())
 ```
 
-Now your Rails app is ready for use with Reshape. Rather than creating standard Django migrations, you should create [Reshape migration files](https://github.com/fabianlindfors/reshape) in `migrations/`. If you'd prefer to use other folders for your migrations, you can pass them to `schema_query()`:
+Now your Django app is ready for use with Reshape. Rather than creating standard Django migrations, you should create [Reshape migration files](https://github.com/fabianlindfors/reshape) in `migrations/`. If you'd prefer to use other folders for your migrations, you can pass them to `schema_query()`:
 
 ```python
 def new_connection_handler(sender, connection, **kwargs):
